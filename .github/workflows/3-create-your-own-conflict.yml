@@ -6,7 +6,7 @@ name: Step 3, Create your own conflict
 # This will run every time we push to the `reference.md` file in the `my-resume` branch.
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
-  workflow_dispatch:
+  workflow_dispatch: 
   push:
     branches:
       - my-resume
