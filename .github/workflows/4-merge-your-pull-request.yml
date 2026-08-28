@@ -8,7 +8,7 @@ name: Step 4, Merge your pull request
 on:
   workflow_dispatch:
   push:
-    branches:
+    branches: 
       - main
 
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
